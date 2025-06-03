@@ -1,6 +1,6 @@
 streamlit
-newspaper3k
-textblob
+newspaper3k==0.2.8
 google-generativeai
 nltk
-collections
+lxml
+beautifulsoup4

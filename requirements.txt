@@ -4,3 +4,7 @@ google-generativeai
 nltk
 beautifulsoup4
 lxml[html_clean]
+textblob
+collections
+urllib.parse
+re

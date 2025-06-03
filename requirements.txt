@@ -1,0 +1,6 @@
+streamlit
+newspaper3k
+textblob
+google-generativeai
+nltk
+collections

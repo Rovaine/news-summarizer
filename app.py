@@ -7,12 +7,12 @@ import re
 import nltk
 import os
 import google.generativeai as genai
-
+from textblob import download_corpora
 # Page config must come first
 st.set_page_config(page_title="News Summarizer", page_icon="🧠")
-
+download_corpora.download_all()
 # Download NLTK resources
-#nltk.download('stopwords')
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 
 # Configure Gemini API

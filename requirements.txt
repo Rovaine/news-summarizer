@@ -2,5 +2,5 @@ streamlit
 newspaper3k==0.2.8
 google-generativeai
 nltk
-lxml
 beautifulsoup4
+lxml[html_clean]
